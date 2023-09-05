@@ -30,7 +30,7 @@ server.use('/orders', ordersRouter.router)
 main().catch(err=> console.log(err));
 
 async function main(){
-    await mongoose.connect('mongodb+srv://users:Deepak2511$@cluster1.xmmmcjj.mongodb.net/ecommerce?retryWrites=true&w=majority');
+    await mongoose.connect('mongodb+srv://deepaksingh:Deepak2511$@cluster0.2rjsy2n.mongodb.net/?retryWrites=true&w=majority');
     console.log('database connected')
 }
 server.get('/',(req, res)=>{
