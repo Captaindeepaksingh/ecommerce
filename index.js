@@ -28,7 +28,7 @@ server.use('/cart', cartRouter.router)
 server.use('/orders', ordersRouter.router)
 
 main().catch(err=> console.log(err));
-
+//changes
 async function main(){
     await mongoose.connect('mongodb+srv://deepaksingh:Deepak2511$@cluster0.2rjsy2n.mongodb.net/ecommerce?retryWrites=true&w=majority');
     console.log('database connected')
